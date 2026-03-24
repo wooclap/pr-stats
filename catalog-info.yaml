@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: pr-stats
+  description: "Get stats about merged Pull Requests"
+  annotations:
+    github.com/project-slug: wooclap/pr-stats
+spec:
+  type: library
+  lifecycle: production
+  owner: group:default/developers
